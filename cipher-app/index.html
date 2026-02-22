@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarl Cypher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Jarl <span>Cypher</span></h1>
+      <p>Encrypt &amp; Decrypt your messages</p>
+      <p>Enjoy Using</p>
+    </header>
+
+    <div class="card">
+      <div class="note">
+        <strong>How it works:</strong> Inserts <strong>"ra"</strong> after every
+        2 letters. &nbsp;Example: <strong>"hello world"</strong> →
+        <strong>"hera llra wora ldra"</strong>
+      </div>
+
+      <div class="row">
+        <div>
+          <label for="plainText">Plain Text</label>
+          <textarea
+            id="plainText"
+            placeholder="Type your message here…"
+          ></textarea>
+        </div>
+        <div>
+          <label for="cipherText">Cipher Text</label>
+          <textarea
+            id="cipherText"
+            placeholder="Paste encrypted text here…"
+          ></textarea>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="btn-row">
+        <button class="btn-encrypt" onclick="doEncrypt()">🔒 Encrypt</button>
+        <button class="btn-decrypt" onclick="doDecrypt()">🔓 Decrypt</button>
+        <button class="btn-clear" onclick="clearAll()">✕ Clear</button>
+      </div>
+
+      <div id="status"></div>
+
+      <hr class="divider" />
+
+      <div class="output-header">
+        <label>Result</label>
+        <button class="btn-copy" id="copyBtn" onclick="copyOutput()">
+          📋 Copy
+        </button>
+      </div>
+      <div id="output">Result will appear here…</div>
+    </div>
+
+    <footer>⚔ Jarl Cypher — Custom Cipher App</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
