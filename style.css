@@ -122,7 +122,11 @@ button:active {
 
 .btn-encrypt {
   background: #30c005;
+<<<<<<< HEAD:cipher-app/style.css
   color: #ffffff;
+=======
+  color: #f4f6f8;
+>>>>>>> 9638777e425ffa9e35b8b4a1b9699b85723405ac:style.css
   flex: 1;
 }
 
@@ -132,7 +136,11 @@ button:active {
 
 .btn-decrypt {
   background: #ff0000;
+<<<<<<< HEAD:cipher-app/style.css
   color: #ffffff;
+=======
+  color: #f4f6f8;
+>>>>>>> 9638777e425ffa9e35b8b4a1b9699b85723405ac:style.css
   flex: 1;
 }
 
@@ -228,7 +236,7 @@ button:active {
 }
 
 .note strong {
-  color: #000000;
+  color: #f4f6f8;
 }
 
 footer {
