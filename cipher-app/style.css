@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #f4f6f8;
+  background: #000000;
   color: #1a1a2e;
   min-height: 100vh;
   display: flex;
@@ -23,7 +23,7 @@ header {
 header h1 {
   font-size: 2rem;
   font-weight: 800;
-  color: #1a1a2e;
+  color: #ffffff;
   letter-spacing: 0.05em;
 }
 
@@ -38,7 +38,7 @@ header p {
 }
 
 .card {
-  background: #ffffff;
+  background: #e9e6e6;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 28px;
@@ -72,7 +72,7 @@ label {
 
 textarea {
   width: 100%;
-  background: #f9fafb;
+  background: #c5daee;
   border: 1px solid #d1d5db;
   border-radius: 8px;
   color: #1a1a2e;
@@ -96,7 +96,7 @@ textarea::placeholder {
 
 .divider {
   border: none;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dadbdf;
   margin: 20px 0;
 }
 
@@ -122,7 +122,7 @@ button:active {
 
 .btn-encrypt {
   background: #30c005;
-  color: #000000;
+  color: #ffffff;
   flex: 1;
 }
 
@@ -132,7 +132,7 @@ button:active {
 
 .btn-decrypt {
   background: #ff0000;
-  color: #000000;
+  color: #ffffff;
   flex: 1;
 }
 
@@ -180,7 +180,7 @@ button:active {
 }
 
 #output {
-  background: #f9fafb;
+  background: #d2d3d4;
   border: 1px solid #d1d5db;
   border-radius: 8px;
   font-family: "Courier New", monospace;
